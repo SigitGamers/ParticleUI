@@ -3,6 +3,7 @@ author: SigitGamers
 version: 1.0
 main: SigitGamersYT\ParticleUI\Main
 api: 4.0.0
+description: "plugin ParticleUI pm4 for our server!"
 
 commands:
   pui:
