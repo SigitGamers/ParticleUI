@@ -7,9 +7,8 @@ api: 4.0.0
 commands:
   pui:
     description: "Open ParticleUI"
-    permissions: pui.cmd
-permission:
+    permission: pui.cmd
+permissions:
   pui.cmd:
     default: op
-    description: ""
     
