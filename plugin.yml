@@ -3,3 +3,12 @@ author: SigitGamers
 version: 1.0
 main: SigitGamersYT\Particle\Main
 api: 4.0.0
+
+commands:
+  pui:
+    description: Open ParticleUI
+    permission: pui.cmd
+permissions:
+  pui.cmd:
+    default: op
+    
