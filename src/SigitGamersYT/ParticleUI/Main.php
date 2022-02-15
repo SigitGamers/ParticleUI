@@ -20,7 +20,7 @@ class Main extends PluginBase implements Listener {
   
   public function onEnable(): void{
     $this->getServer()->getPluginManager()->register($this, $this);
-    $this->getLogger()->info("§bEnable!");
+    $this->getServer()->getLogger()->info("§bEnable!");
   }
 
 }
