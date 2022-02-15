@@ -1,7 +1,7 @@
 name: ParticleUI
 author: SigitGamers
 version: 1.0
-main: SigitGamers\Particle\Main
+main: SigitGamers\ParticleUI\Main
 api: 4.0.0
 
 commands:
