@@ -1,5 +1,5 @@
 name: ParticleUI
-author: SigitGamersYT
+author: SigitGamers
 version: 1.0
 main: SigitGamersYT\Particle\Main
 api: 4.0.0
@@ -11,4 +11,5 @@ commands:
 permission:
   pui.cmd:
     default: op
+    description: ""
     
