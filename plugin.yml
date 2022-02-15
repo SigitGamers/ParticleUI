@@ -6,6 +6,7 @@ api: 4.0.0
 
 commands:
   pui:
+    usage: "/pui"
     description: "Open ParticleUI"
     permission: pui.cmd
 permissions:
