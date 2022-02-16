@@ -1,5 +1,5 @@
 # ParticleUI
-This ParticleUI plugin for PM4
+This ParticleUI for PM4
 
 # Description
 You can Choose our particle or Change our particle for using!
