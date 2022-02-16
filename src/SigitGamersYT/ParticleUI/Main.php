@@ -16,6 +16,8 @@ use pocketmine\event\Listener;
 
 use pocketmine\math\Vector3;
 use pocketmine\world\Position;
+use pocketmine\world\particle\FlameParticle;
+
 use pocketmine\world\particle\HeartParticle; 
 use pocketmine\world\particle\InkParticle;
 use pocketmine\world\particle\LavaParticle;
@@ -34,7 +36,7 @@ use FormAPI\{CustomForm, SimpleForm};
 
 class Main extends PluginBase implements Listener {
   
-  /** @var $players */
+  
   public $players = [];
 
   public function onEnable(): void{
