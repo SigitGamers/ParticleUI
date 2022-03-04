@@ -51,9 +51,9 @@ class Particle extends Task{
 	            $pi = 3.14159;
 	            $time = $time+0.1/$pi;
 	            for($i = 0; $i <= 2*$pi; $i+=$pi/8){
-		        $x = $time*cos($i) + $player->location->x;
-		        $z = exp(-0.1*$time)*sin($time) + $player->location->z;
-			$y = $time*sin($i) + $player->location->y;
+		        $x = $time*cos($i) + $center->x;
+		        $z = exp(-0.1*$time)*sin($time) + $center->z;
+			$y = $time*sin($i) + $center->y;
 				
 	                    $particle->setComponents($x, $y, $z);
 		            $level->addParticle($particle);
