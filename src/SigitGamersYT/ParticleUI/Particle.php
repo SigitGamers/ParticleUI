@@ -26,7 +26,7 @@ use pocketmine\world\particle\WaterDripParticle;
 
 class Particle extends Task{
 
-     public function __construct(Main $plugin){
+     public function __construct(private Main $plugin){
         $this->plugin = $plugin;
      }
 
